@@ -34,12 +34,22 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Github repo, for license',
-        choices: ['MIT', 'Unlicense', 'Apache 2.0', 'IBM Public']
+        choices: ['MIT', 'Unlicense', 'Apache 2.0']
     },
     {
         type: 'input',
         name: 'contributing',
         message: 'Describe how someone would go about contributing to the repo'
+    },
+    {
+        type: 'input',
+        name: 'githubProfile',
+        message: 'Github profile link for contact section'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Email for contact section'
     },
 ];
 
