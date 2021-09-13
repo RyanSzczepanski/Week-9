@@ -65,7 +65,7 @@ function init() {
         questions
     )
     .then((data) => {
-        writeToFile('OUTPUT.md', generateMarkdown(data))
+        writeToFile('README.md', generateMarkdown(data))
     })
 }
 
